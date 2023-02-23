@@ -1,0 +1,22 @@
+[
+    {
+      "name": "John Smith",
+      "image": "https://via.placeholder.com/300x300?text=John+Smith",
+      "status": "alive"
+    },
+    {
+      "name": "Jane Doe",
+      "image": "https://via.placeholder.com/300x300?text=Jane+Doe",
+      "status": "dead"
+    },
+    {
+      "name": "Bob Johnson",
+      "image": "https://via.placeholder.com/300x300?text=Bob+Johnsone",
+      "status": "dead"
+    },
+    {
+      "name": "Samantha Lee",
+      "image": "https://via.placeholder.com/300x300?text=Samantha+Lee",
+      "status": "dead"
+    }
+  ] 
