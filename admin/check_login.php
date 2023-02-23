@@ -4,11 +4,11 @@
   
   if ($username === 'admin' && $password === 'password') {
     // Redirect to the admin page
-    header('Location: panel.html');
+    header('Location: admin/panel.html');
     exit();
   } else {
     // Redirect to the permission denied page
-    header('Location: permission_denied.php');
+    header('Location: admin/permission_denied.php');
     exit();
   }
 ?>
