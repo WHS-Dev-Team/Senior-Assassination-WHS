@@ -8,7 +8,7 @@
     exit();
   } else {
     // Redirect to the permission denied page
-    header('Location: permission_denied.php');
+    header('Location: admin/permission_denied.php');
     exit();
   }
 ?>
