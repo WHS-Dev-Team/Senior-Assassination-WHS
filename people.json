@@ -2,7 +2,7 @@
     {
       "name": "John Smith",
       "image": "https://via.placeholder.com/300x300?text=John+Smith",
-      "status": "alive"
+      "status": "dead"
     },
     {
       "name": "Jane Doe",
@@ -18,5 +18,20 @@
       "name": "Samantha Lee",
       "image": "https://via.placeholder.com/300x300?text=Samantha+Lee",
       "status": "dead"
+    },
+    {
+      "name": "Adam Driver",
+      "image": "https://via.placeholder.com/300x300?text=Adam+Driver",
+      "status": "alive"
+    },
+    {
+      "name": "Jake Bishop",
+      "image": "https://via.placeholder.com/300x300?text=Jake+Bishop",
+      "status": "alive"
+    },
+    {
+      "name": "Patrick Star",
+      "image": "https://via.placeholder.com/300x300?text=Patrick+Star",
+      "status": "alive"
     }
   ] 
