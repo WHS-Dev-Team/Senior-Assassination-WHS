@@ -2,17 +2,44 @@
 <html>
 <head>
 	<title>Senior Assassination 2024 </title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/menustyle.css">
 </head>
 <body>
-    <div>
-        <head>Senior Assassination</head>
-    </div>
+	<header>
+		<nav>
+		  <div class="menu-toggle">
+			<span></span>
+			<span></span>
+			<span></span>
+		  </div>
+		  <ul class="menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="rules.html">Rules</a></li>
+			<li><a href="#">Sign Up</a></li>
+			<li><a href="about.html">About</a></li>
+		  </ul>
+		</nav>
+	  </header>	  
 	<div class="container">
+		<h1 style="font-size: 32px; font-weight: bold;">WHEELING HIGH SCHOOL</h1>
+		<h2 style="font-size: 32px; font-weight: bold;">Senior Assassination</h2>
+		<h3 style="font-size: 20px;">Eliminate</h3>
 		<img id="person-image" src="" alt="Random Person" status="">
 		<h2 id="person-name"></h2>
-		<h2 id="person-status"></h2>
+		<h1 style="font-size: 20px">Status:<h2 id="person-status"></h2></h1>
 	</div>
-	<script src="script.js"></script>
+	<script src="scripts/script.js"></script>
+	<script>
+		const menuToggle = document.querySelector('.menu-toggle');
+   	 	const menu = document.querySelector('.menu');
+
+			menuToggle.addEventListener('click', () => {
+			menu.classList.toggle('show');
+			});
+	</script>
+	<footer>
+		<p>© 2024 Senior Assassination</p>
+	</footer>
 </body>
 </html>
