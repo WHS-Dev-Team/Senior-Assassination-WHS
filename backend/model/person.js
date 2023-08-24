@@ -3,7 +3,7 @@ const mongoose = require('mongoose');
 // Define the schema for the "person" collection
 const personSchema = new mongoose.Schema({
     name: String,
-    image: Buffer, // Store images as binary data
+    image: String, // Store image as a URL
     status: String,
     taken: Boolean
 });
