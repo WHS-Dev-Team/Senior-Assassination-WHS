@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Senior Assassination 2024</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/menustyle.css">
+</head>
+<body>
+	<header>
+		<nav>
+		  <div class="menu-toggle">
+			<span></span>
+			<span></span>
+			<span></span>
+		  </div>
+		  <ul class="menu">
+			<li><a href="index.html">GAME</a></li>
+			<li><a href="rules.html">Rules</a></li>
+			<li><a href="#">Sign Up</a></li>
+			<li><a href="leaderboard.html">Leaderboard</a></li>
+			<li><a href="about.html">About</a></li>
+		  </ul>
+		</nav>
+	</header>
+	<div class="container">
+		<h1 style="font-size: 32px; font-weight: bold;">WHEELING HIGH SCHOOL</h1>
+		<h2 style="font-size: 32px; font-weight: bold;">Senior Assassination 2024</h2>
+		<h3 style="font-size: 20px;">Welcome, Agent</h3>
+		<h3 style="font-size: 20px;">Eliminate</h3>
+		<img id="person-image" src="" alt="Random Person">
+		<h2 id="person-name"></h2>
+		<h1 style="font-size: 20px">Status: <span id="person-status"></span></h1>
+	</div>
+	<script>
+		const menuToggle = document.querySelector('.menu-toggle');
+   	 	const menu = document.querySelector('.menu');
+
+		menuToggle.addEventListener('click', () => {
+			menu.classList.toggle('show');
+		});
+
+		// Add the call to the displayPerson function from your script.js file
+		function displayPerson() {
+			// Your code for fetching and updating the person's information here
+		}
+		displayPerson();
+	</script>
+	<footer>
+		<p>© 2024 Senior Assassination</p>
+	</footer>
+</body>
+</html>

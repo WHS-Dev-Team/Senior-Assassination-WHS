@@ -1,0 +1,29 @@
+/* styles/about-styles.css */
+img {
+    width: 250px; /* Set a fixed width for the circle */
+    height: 250px; /* Set a fixed height for the circle */
+    object-fit: cover; /* Ensure the image fits within the circular area */
+    display: block; /* Center the image within the circle */
+    margin: 0 auto; /* Center the image horizontally */
+    margin-bottom: 15px; /* Add some spacing below the image */
+    border-radius: 50%; /* Make the image circular */
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.3); /* Add a subtle shadow for depth */
+}
+
+
+
+/* Additional styling for the .programmers section */
+.programmers ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+.programmers li h3 {
+    text-align: center;
+    margin: 15px;
+    flex-basis: calc(33.33% - 30px); /* Distribute items in a row with spacing */
+} 
