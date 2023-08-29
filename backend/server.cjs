@@ -1,8 +1,8 @@
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
-const { connectToMongoDB } = require('./mongoconnect');
-const apiRoutes = require('./routes/api');
+const { connectToMongoDB } = require('./mongoconnect.cjs');
+const apiRoutes = require('./routes/api.cjs');
 
 const app = express();
 app.use(bodyParser.json());

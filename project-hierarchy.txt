@@ -4,10 +4,10 @@ Senior-Assassination-WHS
 │     └─ handler.js
 │  ├─ model
 │  │  └─ person.js
-│  ├─ mongoconnect.js
+│  ├─ mongoconnect.cjs
 │  ├─ routes
 │  │  └─ api.js
-│  └─ server.js
+│  └─ server.cjs
 ├─ frontend
 │  ├─ about.html
 │  ├─ index.html
@@ -30,6 +30,7 @@ Senior-Assassination-WHS
 ├─ package-lock.json
 ├─ package.json
 ├─ people.json // for testing - not used anymore
+├─ Procfile
 ├─ README.md
 ├─ run.js
 
