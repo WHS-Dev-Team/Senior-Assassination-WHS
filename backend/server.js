@@ -1,7 +1,7 @@
 const express = require('express');
 const path = require('path');
 const bodyParser = require('body-parser');
-const connectToMongoDB = require('./mongoconnect');
+const { connectToMongoDB } = require('./mongoconnect');
 const apiRoutes = require('./routes/api');
 
 const app = express();
