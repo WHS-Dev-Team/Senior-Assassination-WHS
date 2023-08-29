@@ -9,14 +9,14 @@ app.use(bodyParser.json());
 app.use('/api', apiRoutes);
 
 // Serve static files from the frontend build directory
-app.use(express.static(path.join(__dirname, '../fronten')));
+app.use(express.static(path.join(__dirname, '../frontend')));
 
 // Connect to MongoDB
 connectToMongoDB()
   .then(() => {
     // All other routes will be handled by the frontend app
     app.get('*', (req, res) => {
-      res.sendFile(path.join(__dirname, '../fronten', 'index.html'));
+      res.sendFile(path.join(__dirname, '../frontend', 'index.html'));
     });
 
     // Start the server
