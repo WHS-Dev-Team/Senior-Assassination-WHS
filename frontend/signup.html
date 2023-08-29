@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sign Up - Senior Assassination 2024</title>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css">
+	<link rel="stylesheet" type="text/css" href="styles/menustyle.css">
+    <link rel="stylesheet" type="text/css" href="styles/form.css">
+</head>
+<body>
+	<header>
+		<nav>
+		  <div class="menu-toggle">
+			<span></span>
+			<span></span>
+			<span></span>
+		  </div>
+		  <ul class="menu">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="rules.html">Rules</a></li>
+            <li><a href="signup.html">Sign Up</a></li>
+            <li><a href="leaderboard.html">Leaderboard</a></li>
+			<li><a href="about.html">About</a></li>
+		  </ul>
+		</nav>
+    </header>
+
+	<section class="signup">
+		<h1>Sign Up for Senior Assassination 2024</h1>
+		<p>Welcome to the sign-up page for Senior Assassination 2024! This exciting and thrilling game is an annual tradition for seniors, where you'll test your skills, strategy, and cunning as you compete to outwit your opponents and be the last one standing.</p>
+		<p>To join the game, follow these simple steps:</p>
+		<ol>
+			<li>Find a Team: Form a team of 2-4 players. Choose your allies wisely, as teamwork is essential to success.</li>
+			<li>Team Leader: Designate a team leader who will be responsible for registering your team.</li>
+			<li>Registration: Fill out the registration form with accurate details. Make sure to provide the team name, team leader's contact information, and the names of all team members.</li>
+			<li>Submit: Once you've completed the form, submit it by the specified deadline to secure your spot in the game</li>
+			<li>Confirmation: You will receive a confirmation email with further instructions and your unique team identification code.</li>
+			<li>Get Ready: Prepare your strategies, study the rules, and await the start of the game!</li>
+		</ol>
+		<p>Remember, Senior Assassination is all about having fun while testing your skills and forming bonds with your fellow seniors. Stay safe, respect the rules, and may the best team win!</p>
+	</section>
+    
+    <section class="form">
+		<h1>Registration Form</h1>
+		<p>Welcome to the sign-up page for Senior Assassination 2024! Follow the steps below to register your team. DUE DATE: FEBURARY 10 2024</p>
+		
+		<form action="./submit_registration.php" method="post">
+			<label for="teamName">Team Name:</label>
+			<input type="text" id="teamName" name="teamName" required>
+			
+			<label for="teamLeader">Team Leader:</label>
+			<input type="text" id="teamLeader" name="teamLeader" required>
+			
+			<label for="email">Email:</label>
+			<input type="email" id="email" name="email" required>
+			
+			<label for="player2">Player 2:</label>
+			<input type="text" id="player2" name="player2" required>
+			
+			<label for="player3">Player 3:</label>
+			<input type="text" id="player3" name="player3">
+			
+			<label for="player4">Player 4:</label>
+			<input type="text" id="player4" name="player4">
+			
+			<input type="submit" value="Submit">
+		</form>
+	</section>
+
+
+    <script>
+		const menuToggle = document.querySelector('.menu-toggle');
+   	 	const menu = document.querySelector('.menu');
+
+		menuToggle.addEventListener('click', () => {
+			menu.classList.toggle('show');
+		});
+	</script>
+    
+	<footer>
+		<p>© 2024 Senior Assassination</p>
+	</footer>
+</body>
+</html>

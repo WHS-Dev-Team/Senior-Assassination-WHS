@@ -3,42 +3,42 @@
       "name": "John Smith",
       "image": "https://via.placeholder.com/300x300?text=John+Smith",
       "status": "dead",
-      "taken": "false"
+      "taken": false
     },
     {
       "name": "Jane Doe",
       "image": "https://via.placeholder.com/300x300?text=Jane+Doe",
       "status": "alive",
-      "taken": "false"
+      "taken": false
     },
     {
       "name": "Bob Johnson",
       "image": "https://via.placeholder.com/300x300?text=Bob+Johnsone",
       "status": "dead",
-      "taken": "false"
+      "taken": false
     },
     {
       "name": "Samantha Lee",
       "image": "https://via.placeholder.com/300x300?text=Samantha+Lee",
       "status": "dead",
-      "taken": "false"
+      "taken": false
     },
     {
       "name": "Adam Driver",
       "image": "https://via.placeholder.com/300x300?text=Adam+Driver",
       "status": "alive",
-      "taken": "false"
+      "taken": false
     },
     {
       "name": "Jake Bishop",
       "image": "https://via.placeholder.com/300x300?text=Jake+Bishop",
       "status": "alive",
-      "taken": "false"
+      "taken": false
     },
     {
       "name": "Patrick Star",
       "image": "https://via.placeholder.com/300x300?text=Patrick+Star",
       "status": "alive",
-      "taken": "false"
+      "taken": false
     }
   ] 

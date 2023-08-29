@@ -1,0 +1,35 @@
+Senior-Assassination-WHS
+├─ backend
+│  ├─ handler
+│     └─ handler.js
+│  ├─ model
+│  │  └─ person.js
+│  ├─ mongoconnect.js
+│  ├─ routes
+│  │  └─ api.js
+│  └─ server.js
+├─ frontend
+│  ├─ about.html
+│  ├─ index.html
+│  ├─ leaderboard.html
+|  ├─ signup.html
+│  ├─ confirmation.html
+│  ├─ submit_registration.php
+│  ├─ rules.html
+│  │ scripts
+│  │   ├─ menuscript.js
+│  │   └─ personInteractions.js
+│  └─ styles
+│     ├─ about.css
+│     ├─ menustyle.css
+│     ├─ from.css
+│     └─ styles.css
+├─ imgs
+├─ LICENSE
+├─ node_modules
+├─ package-lock.json
+├─ package.json
+├─ people.json // for testing - not used anymore
+├─ README.md
+├─ run.js
+
