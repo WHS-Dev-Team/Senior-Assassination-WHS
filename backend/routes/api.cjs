@@ -1,9 +1,8 @@
 // backend/routes/api.js
-
 const express = require('express');
 const router = express.Router();
 const { connectToMongoDB } = require('../mongoconnect.cjs'); // Import the connectToMongoDB function
-const { getRandomAlivePerson, checkIfAlive } = require('../handler/handler'); // Import the handler functions
+const { getRandomAlivePerson, checkIfAlive } = require('../handler/handler.cjs'); // Import the handler functions
 
 // Get all people
 router.get('/people', async (req, res) => {

@@ -1,9 +1,13 @@
-<!DOCTYPE html>
+<!-- frontend\index.html -->
+<!DOCTYPE html> 
 <html>
 <head>
 	<title>Senior Assassination 2024</title>
 	<link rel="stylesheet" type="text/css" href="styles/styles.css">
-	<link rel="stylesheet" type="text/css" href="styles/menustyle.css">
+	<link rel="stylesheet" type="text/css" href="styles/menustyle.css">	
+	<script src="../dist/bundle.js"></script>
+
+
 </head>
 <body>
 	<header>
@@ -31,16 +35,10 @@
 		<h2 id="person-name"></h2>
 		<h1 style="font-size: 20px">Status: <span id="person-status"></span></h1>
 	</div>
-	
-	<script src="scripts/personInteractions.js"></script>
-	<script>
-		const menuToggle = document.querySelector('.menu-toggle');
-   	 	const menu = document.querySelector('.menu');
 
-		menuToggle.addEventListener('click', () => {
-			menu.classList.toggle('show');
-		});
-	</script>
+	<script src="scripts/menuscript.js" type="text/javascript"></script>
+
+	
 	
 	<footer>
 		<p>© 2024 Senior Assassination</p>

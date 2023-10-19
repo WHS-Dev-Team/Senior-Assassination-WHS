@@ -1,13 +1,18 @@
 Senior-Assassination-WHS
 ├─ backend
 │  ├─ handler
-│     └─ handler.js
+│     └─ handler.cjs
 │  ├─ model
 │  │  └─ person.js
 │  ├─ mongoconnect.cjs
 │  ├─ routes
 │  │  └─ api.js
 │  └─ server.cjs
+├─ dist
+│   ├─ bundle.js
+│   ├─bundle.js.LICENSE.txt
+│   ├─1f5bf2667689edcbdbf73ea7c5dbcdfd.node
+│   └─20ebddf591928620189b2d61e6a7ebb5.node
 ├─ frontend
 │  ├─ about.html
 │  ├─ index.html
@@ -18,7 +23,7 @@ Senior-Assassination-WHS
 │  ├─ rules.html
 │  │ scripts
 │  │   ├─ menuscript.js
-│  │   └─ personInteractions.js
+│  │   └─ personInteractions.cjs
 │  └─ styles
 │     ├─ about.css
 │     ├─ menustyle.css
@@ -33,4 +38,6 @@ Senior-Assassination-WHS
 ├─ Procfile
 ├─ README.md
 ├─ run.js
+└─ webpack.config.cjs
+
 
