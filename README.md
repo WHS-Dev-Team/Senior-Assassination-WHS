@@ -4,17 +4,13 @@ This wiki serves as a comprehensive guide to the Senior Assassination Game proje
 
 ## Table of Contents
 [Introduction](#Introduction)<br>
-[Overview](#Overview)<br>
 [Installation](#Installation)<br>
+[Overview](#Overview)<br>
 [FAQs](#FAQs)<br>
 [Acknowledgments](#Acknowledgments)<br>
 
 ## Introduction
 Welcome to the Senior Assassination Game, an exciting project that brings together students for an engaging and competitive experience. This wiki aims to provide you with all the necessary information to get started.
-
-## Overview
-This is how it's gonna work:
-![The Plan](https://cdn.discordapp.com/attachments/814597578908762172/1165032111502262383/image.png?ex=65455fb4&is=6532eab4&hm=f1206bad0a578165f83d2ab12a70d0f15839b5a5b0d9a73d6eccd9737a0a5a6d)
 
 ## Installation
 This will show you how to install this repo on your own machine and also write the code into it. 
@@ -37,6 +33,11 @@ Navigate to the project directory using your preferred code editor or terminal. 
 ~/Senior-Assassination-WHS$ npm install
 ```
 > The required dependencies are located in `package.json`.
+
+## Overview
+This is how it's gonna work:
+![The Plan](https://cdn.discordapp.com/attachments/814597578908762172/1165032111502262383/image.png?ex=65455fb4&is=6532eab4&hm=f1206bad0a578165f83d2ab12a70d0f15839b5a5b0d9a73d6eccd9737a0a5a6d)
+
 
 ## Structure
 ```txt
