@@ -75,7 +75,7 @@ Bugs happen! If you come across one, please report it. Be sure to provide detail
 
 ### 🛠️ Want to Contribute Code?
 
-Feel like rolling up your sleeves and diving into the codebase? Awesome! Check out the [open issues](https://github.com/YourUsername/Senior-Assassination-WHS/issues) for tasks that need attention. Fork the project, make your changes, and submit a pull request.
+Feel like rolling up your sleeves and diving into the codebase? Awesome! Check out the [open issues](https://github.com/WHS-Dev-Team/Senior-Assassination-WHS/issues) for tasks that need attention. Fork the project, make your changes, and submit a pull request.
 
 ### 🎨 Design and UI/UX
 
