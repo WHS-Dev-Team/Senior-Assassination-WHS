@@ -5,6 +5,7 @@ This wiki serves as a comprehensive guide to the Senior Assassination Game proje
 ## Table of Contents
 [Introduction](#Introduction)<br>
 [Overview](#Overview)<br>
+[Installation](#Installation)<br>
 [FAQs](#FAQs)<br>
 [Acknowledgments](#Acknowledgments)<br>
 
@@ -15,6 +16,27 @@ Welcome to the Senior Assassination Game, an exciting project that brings togeth
 This is how it's gonna work:
 ![The Plan](https://cdn.discordapp.com/attachments/814597578908762172/1165032111502262383/image.png?ex=65455fb4&is=6532eab4&hm=f1206bad0a578165f83d2ab12a70d0f15839b5a5b0d9a73d6eccd9737a0a5a6d)
 
+## Installation
+This will show you how to install this repo on your own machine and also write the code into it. 
+### 1. Download Github Desktop
+If you haven't already, download and install [GitHub Desktop](https://desktop.github.com/). This will make it easier to manage and contribute to the project.
+### 2. Download Node.js
+Make sure you have Node.js installed on your machine. If not, download it from the [official website](https://nodejs.org/).
+> Node.js will be used to run JavaScript on the server side.
+After installing Node.js, you'll also have access to npm (Node Package Manager), which will allow you to easily manage project dependencies.
+### 3. Clone the Repository
+- Open GitHub Desktop and sign in with your GitHub account.
+- Click on the "File" menu and select "Clone Repository."
+- In the "URL" field, enter `https://github.com/WHS-Dev-Team/Senior-Assassination-WHS`.
+- Choose a local path where you want to save the project.
+- Click "Clone."
+### 3. Install Dependencies
+
+Navigate to the project directory using your preferred code editor or terminal. Install the required dependencies using npm (Node Package Manager):
+```bash
+~/Senior-Assassination-WHS$ npm install
+```
+> The required dependencies are located in `package.json`.
 
 ## Structure
 ```txt
