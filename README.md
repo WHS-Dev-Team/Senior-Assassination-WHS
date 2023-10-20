@@ -67,7 +67,7 @@ Senior-Assassination-WHS
 
 ### 💡 Have an Idea?
 
-Got a cool idea or a feature you'd like to see? Don't hesitate to share it with us! Head over to the [Issues](https://github.com/YourUsername/Senior-Assassination-WHS/issues) tab and let us know. We'd love to hear your thoughts!
+Got a cool idea or a feature you'd like to see? Don't hesitate to share it with us! Head over to the [Issues](https://github.com/WHS-Dev-Team/Senior-Assassination-WHS/issues) tab and let us know. We'd love to hear your thoughts!
 
 ### 🐛 Found a Bug?
 
