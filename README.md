@@ -13,7 +13,7 @@ This wiki serves as a comprehensive guide to the Senior Assassination Game proje
 Welcome to the Senior Assassination Game, an exciting project that brings together students for an engaging and competitive experience. This wiki aims to provide you with all the necessary information to get started.
 
 ## Installation
-This will show you how to install this repo on your own machine and also write the code into it. 
+This will show you how to install this repo on your own machine and to also contribute. 
 ### 1. Download Github Desktop
 If you haven't already, download and install [GitHub Desktop](https://desktop.github.com/). This will make it easier to manage and contribute to the project.
 ### 2. Download Node.js
