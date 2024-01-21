@@ -1,8 +1,5 @@
 // backend/handler/handler.cjs
-const express = require('express');
-const router = express.Router();
-const { MongoClient, ObjectId } = require('mongodb'); // Import ObjectId for querying by ID
-const database = require('../mongoconnect.cjs'); // Import the database object
+const { MongoClient, ObjectId } = require('mongodb');
 const uri = process.env.URI || "mongodb+srv://bryanchin:3duZATgz9UxJOIiC@whsseniorassassin.y3uvizr.mongodb.net/?retryWrites=true&w=majority";
 
 async function getAllPeople() {
@@ -66,4 +63,4 @@ async function checkIfAlive(name) {
   }
 }
 
-module.exports = { getAllPeople, getPersonById, getRandomAlivePerson, checkIfAlive };
+

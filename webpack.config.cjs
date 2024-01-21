@@ -21,7 +21,8 @@ module.exports = {
       "os": require.resolve("os-browserify/browser"),
       "zlib": require.resolve("browserify-zlib"),
       "assert": require.resolve("assert/"),
-      "querystring": require.resolve("querystring-es3")
+      "querystring": require.resolve("querystring-es3"),
+      "express": require.resolve("express"),
     }
   },
   module: {

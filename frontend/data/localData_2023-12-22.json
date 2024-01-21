@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "64ed56f03643e53b3f3aa9b0",
+    "name": "John Smith",
+    "image": "https://via.placeholder.com/300x300?text=John+Smith",
+    "status": "dead",
+    "taken": false
+  },
+  {
+    "_id": "64ed56f03643e53b3f3aa9b1",
+    "name": "Jane Doe",
+    "image": "https://via.placeholder.com/300x300?text=Jane+Doe",
+    "status": "alive",
+    "taken": false
+  },
+  {
+    "_id": "64ed56f03643e53b3f3aa9b2",
+    "name": "Bob Johnson",
+    "image": "https://via.placeholder.com/300x300?text=Bob+Johnsone",
+    "status": "dead",
+    "taken": false
+  },
+  {
+    "_id": "64ed56f03643e53b3f3aa9b3",
+    "name": "Samantha Lee",
+    "image": "https://via.placeholder.com/300x300?text=Samantha+Lee",
+    "status": "dead",
+    "taken": false
+  },
+  {
+    "_id": "64ed56f03643e53b3f3aa9b4",
+    "name": "Adam Driver",
+    "image": "https://via.placeholder.com/300x300?text=Adam+Driver",
+    "status": "alive",
+    "taken": false
+  },
+  {
+    "_id": "64ed56f03643e53b3f3aa9b5",
+    "name": "Jake Bishop",
+    "image": "https://via.placeholder.com/300x300?text=Jake+Bishop",
+    "status": "alive",
+    "taken": false
+  },
+  {
+    "_id": "64ed56f03643e53b3f3aa9b6",
+    "name": "Patrick Star",
+    "image": "https://via.placeholder.com/300x300?text=Patrick+Star",
+    "status": "alive",
+    "taken": false
+  },
+  {
+    "_id": "64ee76b230fbf22a651825dc",
+    "name": "Bryan Hein Chen",
+    "image": "https://via.placeholder.com/300x300?text=Bryan+Chen",
+    "status": "alive",
+    "taken": false
+  },
+  {
+    "_id": "65308ec97f5ce4657f15f8d4",
+    "name": "Erick Santiago",
+    "image": "https://via.placeholder.com/300x300?text=Erick+Santiago",
+    "status": "alive",
+    "taken": false
+  },
+  {
+    "_id": "65308eed7f5ce4657f15f8d5",
+    "name": "Jake Ning",
+    "image": "https://via.placeholder.com/300x300?text=Jake+Ning",
+    "status": "alive",
+    "taken": false
+  }
+]

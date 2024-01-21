@@ -39,5 +39,3 @@ Senior-Assassination-WHS
 ├─ README.md
 ├─ run.js
 └─ webpack.config.cjs
-
-

@@ -82,3 +82,71 @@ p {
     height: auto;
   }
 }
+
+
+/* footer */
+/* Add this to your existing CSS file */
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ensure the body takes at least the full height of the viewport */
+}
+
+.content {
+  /* Add margin at the bottom to make space for the fixed footer */
+  margin-bottom: 60px; /* Adjust the value based on your footer height */
+  flex: 1; /* Grow to fill remaining space */
+}
+
+.footer-bar {
+  background-color: #333; /* Set the background color */
+  color: #fff; /* Set the text color */
+  padding: 15px;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.footer-left p {
+  margin-right: 10px; /* Adjust the spacing between text and logo */
+}
+
+.footer-nav {
+  display: flex;
+}
+
+.footer-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.footer-nav li {
+  margin: 0 20px; /* Adjust the spacing between links */
+}
+
+.footer-nav a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+/* Add this to your existing CSS file */
+.footer-left img {
+  margin-right: 50px; /* Adjust the spacing between text and logo */
+  width: 50px; /* Adjust the width of the image */
+  height: auto; /* Maintain the aspect ratio */
+}
