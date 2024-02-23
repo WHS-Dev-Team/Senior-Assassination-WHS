@@ -2,8 +2,11 @@
 const express = require('express');
 const { connectToMongoDB } = require('../mongoconnect.cjs');
 const { getAllPeople, getPersonById, getRandomAlivePerson, checkIfAlive } = require('../handler/handler.cjs');
+const fs = require('fs');
+const path = require('path');
 
 const router = express.Router();
+const dataPath = path.join(__dirname, '../../frontend/data');
 
 // Get all people
 router.get('/people', async (req, res) => {
@@ -51,4 +54,18 @@ router.get('/check-if-alive/:name', async (req, res) => {
   }
 });
 
+//read data from json file
+router.get('/people-list', async (req, res) => {
+ //read all files in the data directory
+  const files = fs.readdirSync(dataPath);
+  const people = [];
+  files.forEach(file => {
+    const data = fs.readFileSync(path.join(dataPath, file));
+    const person = JSON.parse(data);
+    people.push(person);
+  });
+  res.json(people);
+});
+
 module.exports = router;
+

@@ -63,4 +63,10 @@ async function checkIfAlive(name) {
   }
 }
 
+module.exports = {
+  getAllPeople,
+  getPersonById,
+  getRandomAlivePerson,
+  checkIfAlive,
+};
 

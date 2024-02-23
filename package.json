@@ -3,9 +3,10 @@
   "version": "1.0.1",
   "description": "Senior Assassination Game for WHS",
   "main": "backend/server.mjs",
-  
+  "module": "amd",
   "scripts": {
     "start": "node backend/server.cjs",
+    "dev": "nodemon backend/server.cjs",
     "build": "browserify frontend/scripts/personInteractions.js -o frontend/static/main.js",
     "vite": "create-vite personInteractions.js"
   },
@@ -16,6 +17,7 @@
     "@babel/core": "^7.23.2",
     "@babel/preset-env": "^7.23.2",
     "@mongodb-js/zstd": "^1.2.0",
+    "amd-loader": "^0.0.8",
     "assert": "^2.1.0",
     "axios": "^1.6.2",
     "browserify-zlib": "^0.2.0",
@@ -28,7 +30,7 @@
     "mongoose": "^7.4.5",
     "node-fetch": "^3.3.2",
     "node-loader": "^2.0.0",
-    "nodemon": "^3.0.1",
+    "nodemon": "^3.1.0",
     "os-browserify": "^0.3.0",
     "path": "^0.12.7",
     "querystring-es3": "^0.2.1",
