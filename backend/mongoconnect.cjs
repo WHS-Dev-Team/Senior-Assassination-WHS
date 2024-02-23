@@ -1,6 +1,6 @@
 //backend/mongoconnect.cjs
 const { MongoClient } = require('mongodb');
-const uri = "mongodb+srv://bryanchin:3duZATgz9UxJOIiC@whsseniorassassin.y3uvizr.mongodb.net/?retryWrites=true&w=majority";
+const uri = "mongodb+srv://bryanchin:3duZATgz9UxJOIiC@whsseniorassassin.y3uvizr.mongodb.net";
 
 let database; // Database object to be used throughout the application
 
@@ -24,3 +24,4 @@ const getDatabase = () => {
 };
 
 module.exports = { connectToMongoDB, getDatabase };
+

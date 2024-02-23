@@ -6,8 +6,10 @@ const { connectToMongoDB } = require('./mongoconnect.cjs'); // Adjust the path i
 const apiRoutes = require('./routes/api.cjs');
 const cors = require('cors');
 
+
 const { fileURLToPath } = require('url');
 const { dirname } = require('path');
+const fs = require('fs');
 
 const app = express();
 const server = createServer(app);
@@ -17,8 +19,8 @@ app.use(cors()); // Enable CORS for all origins
 app.use(bodyParser.json());
 app.use('/api', apiRoutes);
 app.use(express.static(path.join(__dirname, '../frontend')));
-
 const serveScriptsPath = path.join(__dirname, '../frontend/scripts');
+
 app.use(express.static(serveScriptsPath, {
   extensions: ['cjs', 'js'], 
   index: false,

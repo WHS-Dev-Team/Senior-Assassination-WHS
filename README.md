@@ -1,6 +1,6 @@
 # Senior-Assassination-WHS
 
-Senior Assassination is a game where you are a student at a High School and you are trying to kill your classmates. You can do this by using a variety of weapons and items. You can also use your classmates to kill other classmates. The goal of the game is to be the last student standing. And of course, there is a prize pool.
+Senior Assassination is a game where you are a student at a High School and you are trying to kill your classmates. You can do this by using a variety of weapons and items. You can also use your classmates to kill other classmates. The goal of the game is to be the last student standing. And of course, there is a prize pool of $610 USD under one condition: If everyone following the whs_sassasin24 account pays the $10 fee.
 
 # Installation
 To install the game, you will need to download the game files from the GitHub repository. You will need the following requirements to run the game:
