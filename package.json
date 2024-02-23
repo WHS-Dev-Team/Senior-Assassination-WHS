@@ -1,11 +1,12 @@
 {
   "name": "senior-assassination-whs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Senior Assassination Game for WHS",
   "main": "backend/server.mjs",
+  
   "scripts": {
     "start": "node backend/server.cjs",
-    "build": "webpack",
+    "build": "browserify frontend/scripts/personInteractions.js -o frontend/static/main.js",
     "vite": "create-vite personInteractions.js"
   },
   "author": "Bryan Chen",
