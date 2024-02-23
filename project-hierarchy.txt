@@ -1,4 +1,4 @@
-Senior-Assassination-WHS
+Senior-Assassination
 ├─ backend
 │  ├─ handler
 │     └─ handler.cjs
@@ -8,12 +8,9 @@ Senior-Assassination-WHS
 │  ├─ routes
 │  │  └─ api.js
 │  └─ server.cjs
-├─ dist
-│   ├─ bundle.js
-│   ├─bundle.js.LICENSE.txt
-│   ├─1f5bf2667689edcbdbf73ea7c5dbcdfd.node
-│   └─20ebddf591928620189b2d61e6a7ebb5.node
 ├─ frontend
+|  ├─ data
+│  │  └─ localData.json 
 │  ├─ about.html
 │  ├─ index.html
 │  ├─ leaderboard.html
@@ -37,5 +34,8 @@ Senior-Assassination-WHS
 ├─ people.json // for testing - not used anymore
 ├─ Procfile
 ├─ README.md
-├─ run.js
-└─ webpack.config.cjs
+└─ run.js
+
+
+
+
