@@ -63,10 +63,26 @@ async function checkIfAlive(name) {
   }
 }
 
+async function checkIfTaken(name) {
+  const client = new MongoClient(uri, { useUnifiedTopology: true });
+
+  try {
+    await client.connect();
+    const database = client.db('senior');
+    const collection = database.collection('person');
+    const person = await collection.findOne({ name, taken: false });
+    return person ? { taken: true } : { taken: false };
+  } finally {
+    client.close();
+  }
+}
+
+
 module.exports = {
   getAllPeople,
   getPersonById,
   getRandomAlivePerson,
   checkIfAlive,
+  checkIfTaken
 };
 
