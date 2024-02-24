@@ -1,7 +1,7 @@
 // backend/routes/api.cjs
 const express = require('express');
 const { connectToMongoDB } = require('../mongoconnect.cjs');
-const { getAllPeople, getPersonById, getRandomAlivePerson, checkIfAlive } = require('../handler/handler.cjs');
+const { getAllPeople, getPersonById, getRandomAlivePerson, checkIfAlive, checkIfTaken } = require('../handler/handler.cjs');
 const fs = require('fs');
 const path = require('path');
 
@@ -48,6 +48,16 @@ router.get('/random-alive-person', async (req, res) => {
 router.get('/check-if-alive/:name', async (req, res) => {
   try {
     const person = await checkIfAlive(req.params.name);
+    res.json(person);
+  } catch (error) {
+    res.status(500).json({ error: error.message });
+  }
+});
+
+// Check if a stored person is taken
+router.get('/check-if-taken/:name', async (req, res) => {
+  try {
+    const person = await checkIfTaken(req.params.name);
     res.json(person);
   } catch (error) {
     res.status(500).json({ error: error.message });
