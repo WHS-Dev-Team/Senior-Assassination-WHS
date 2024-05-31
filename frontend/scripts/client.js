@@ -30,10 +30,19 @@
         }
     }
 
+
     ///check-if-alive/:name endpoint
     async function checkIfAlive(name) {
         const response = await fetch(
             `http://localhost:8080/api/check-if-alive/${name}`
+        );
+        const person = await response.json();
+        return person;
+    }
+
+    async function checkIfTaken(name) {
+        const response = await fetch(
+            `http://localhost:8080/api/check-if-taken/${name}`
         );
         const person = await response.json();
         return person;
@@ -48,7 +57,7 @@
                 const isAlive = await checkIfAlive(storedPerson.name || storedPerson[0].name);
 
                 if (isAlive) {
-                    return storedPerson;
+                    return storedPerson;S
                 } else {
                     localStorage.removeItem("assassinationTarget");
                 }
@@ -59,28 +68,34 @@
         }
     }
 
+ 
     function saveNewTarget(person) {
         localStorage.setItem("assassinationTarget", JSON.stringify(person));
     }
+
+
+     
 
     async function main() {
         console.log("main() run");
         const data = await fetchData();
         
-        const image = document.getElementById("person-image");
+           const image = document.getElementById("person-image");
         const name = document.getElementById("person-name");
         const status = document.getElementById("person-status");
         console.log('data', data)
         
-        const person = await getStoredPerson() || await getRandomAlivePerson(data[0]);
+        const person = await getStoredPerson() || await getRandomAlivePerson(data[0].length>0?data[0]:data);
         image.src = person.image || person[0].image;
         name.textContent = person.name || person[0].name;
         status.textContent = person.status || person[0].status;
 
+
+
         status.style.backgroundColor =
             person.status === "alive" ? "green" : "red";
 
-        saveNewTarget(person);
+            saveNewTarget(person);
     }
 
 
