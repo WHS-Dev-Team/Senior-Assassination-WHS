@@ -19,7 +19,6 @@
     "@mongodb-js/zstd": "^1.2.0",
     "amd-loader": "^0.0.8",
     "assert": "^2.1.0",
-    "axios": "^1.6.2",
     "browserify-zlib": "^0.2.0",
     "cors": "^2.8.5",
     "crypto-browserify": "^3.12.0",
